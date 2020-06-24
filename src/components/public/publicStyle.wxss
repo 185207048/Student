@@ -1,0 +1,62 @@
+.marginDis {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 16px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.marginDis .right {
+  display: flex;
+  float: right;
+  margin-left: 454px;
+}
+.marginDis .right p {
+  margin-bottom: 0;
+}
+.marginDis .right img {
+  width: 16px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.marginDis a {
+  margin-right: 30px;
+  color: #333;
+}
+.top,
+load {
+  width: 1200px;
+  margin: 0 auto;
+}
+.top {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.active {
+  color: #8ccB8f !important;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+.logo .title h1 {
+  margin-bottom: 5px;
+}
+.logo .title h5 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #d5d3d3;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+.InputTop {
+  margin-top: 30px;
+}
+.contact {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 350px;
+  height: 388px;
+  border: none;
+}

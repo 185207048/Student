@@ -1,0 +1,346 @@
+.container {
+  width: 100%;
+  height: 100px;
+
+}
+
+.container .main {
+  width: 1393px;
+  padding: 20px 76px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.container .main .leftPan {
+  flex: 1;
+}
+
+.container .main .rightPan {
+  width: 320px;
+  margin-left: 30px;
+}
+
+.container .main .leftPan .title {
+  color: #212121;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.container .main .leftPan .cate {
+  font-size: 12px;
+  color: #999;
+  display: flex;
+  margin-bottom: 11px;
+}
+
+.container .main .leftPan .cate .bread span {
+  cursor: pointer;
+}
+
+.container .main .leftPan .cate .bread span:hover {
+  color: #1890ff
+}
+
+
+.container .main .leftPan .cate .time {
+  margin: 0 16px;
+}
+
+.container .main .leftPan .extInfo {
+  display: flex;
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 16px;
+}
+
+.container .main .leftPan .extInfo .popNum {
+  margin: 0 16px
+}
+
+.container .main .leftPan .extInfo .note span {
+  color: red;
+  margin-right: 8px;
+}
+
+.container .main .leftPan .videoBox {
+  width: 100%;
+  position: relative;
+}
+
+.container .main .leftPan .videoBox svg {
+  position: absolute;
+  right: 34px;
+  bottom: 70px;
+}
+
+.container .main .leftPan .videoBox video {
+  width: 100%;
+}
+
+.container .main .leftPan .ant-tabs-nav {
+  width: 100%;
+  margin: 20px 0 !important;
+}
+
+.container .main .leftPan .ant-tabs-nav-list button {
+  color: #222;
+  font-size: 20px;
+}
+
+.container .main .leftPan .ant-tabs-nav::before {
+  display: none;
+}
+
+.container .main .leftPan .commonBox {
+  width: 100%;
+}
+
+
+
+.container .main .leftPan .commonBox .title span {
+  margin-left: 5px;
+}
+
+.container .main .leftPan .commonBox .commonHeader {
+  display: flex;
+  border-bottom: 1px solid #e5e9ef;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.container .main .leftPan .commonBox .commonHeader .sort {
+  display: flex;
+}
+
+.container .main .leftPan .commonBox .commonHeader .sort div {
+  padding: 8px 0;
+  margin: 0 16px -1px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.container .main .leftPan .commonBox .commonHeader .sort .byHot {
+  margin-left: 0;
+}
+
+.container .main .leftPan .commonBox .commonHeader .sort .active {
+  border-bottom: 1px solid #00a1d6;
+  position: relative;
+  color: #00a1d6;
+}
+
+.container .main .leftPan .commonBox .commonHeader .sort .active::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 4px 4px 4px;
+  border-color: transparent transparent #00a1d6 transparent;
+}
+
+.container .main .leftPan .commonBox .commonHeader .pagination .ant-pagination-prev {
+  margin: 0 4px;
+}
+
+.container .main .leftPan .commonBox .commonHeader .pagination .ant-pagination {
+  display: flex;
+  align-items: center !important;
+}
+
+.container .main .leftPan .commonBox .commonHeader .pagination .ant-pagination-item {
+  border: 0px;
+}
+
+.container .main .leftPan .commonBox .commonHeader .pagination .ant-pagination-options {
+  display: none;
+}
+
+.commonBox .commonSend {
+  margin: 10px 0;
+  display: flex;
+}
+
+.commonBox .commonSend .userHead {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+}
+
+.commonBox .commonSend .userHead img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.commonBox .commonSend .inputArea {
+  flex: 1;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 64px;
+  font-size: 12px;
+
+}
+
+.commonBox .commonSend .inputArea .baffle {
+  width: 100%;
+  height: 100%;
+  background-color: #e5e9ef;
+  color: #777;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.commonBox .commonSend .inputArea .baffle a {
+  display: inline-block;
+  padding: 4px 9px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #00a1d6;
+  margin: 0 3px;
+}
+
+.commonBox .commonSend .btnBox {
+  margin-left: 10px;
+  width: 70px;
+  height: 64px;
+}
+
+.commonBox .commonSend .btnBox .ant-btn {
+  border: 0px;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  word-wrap: break-word !important;
+  word-break: break-all !important;
+  white-space: normal !important;
+}
+
+.commonBox .commonSend .btnBox .ant-btn-primary-disabled,
+.commonBox .commonSend .btnBox .ant-btn-primary.disabled,
+.commonBox .commonSend .btnBox .ant-btn-primary[disabled],
+.commonBox .commonSend .btnBox .ant-btn-primary-disabled:hover,
+.commonBox .commonSend .btnBox .ant-btn-primary.disabled:hover,
+.commonBox .commonSend .btnBox .ant-btn-primary[disabled]:hover,
+.commonBox .commonSend .btnBox .ant-btn-primary-disabled:focus,
+.commonBox .commonSend .btnBox .ant-btn-primary.disabled:focus,
+.commonBox .commonSend .btnBox .ant-btn-primary[disabled]:focus,
+.commonBox .commonSend .btnBox .ant-btn-primary-disabled:active,
+.commonBox .commonSend .btnBox .ant-btn-primary.disabled:active,
+.commonBox .commonSend .btnBox .ant-btn-primary[disabled]:active,
+.commonBox .commonSend .btnBox .ant-btn-primary-disabled.active,
+.commonBox .commonSend .btnBox .ant-btn-primary.disabled.active,
+.commonBox .commonSend .btnBox .ant-btn-primary[disabled].active {
+  background-color: #e5e9ef !important;
+}
+
+.commonBox .commentList {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.commonBox .commentList .commonItem {
+  width: 100%;
+  display: flex;
+
+}
+
+.commonBox .commentList .commonItem .userHead {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+  margin-top: 22px;
+}
+
+.commonBox .commentList .commonItem .userHead img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.commonBox .commentList .commonItem .content {
+  padding: 22px 0px 14px;
+  flex: 1;
+  border-bottom: 1px solid #e5e9ef;
+  justify-content: center;
+}
+
+.commonBox .commentList .commonItem .content .userName {
+  font-weight: 700;
+  color: #6d757a;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.commonBox .commentList .commonItem .content .cont {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.commonBox .commentList .commonItem .content .info {
+  font-size: 12px;
+  color: #99a2aa
+}
+
+.commonBox .commentList .commonItem .content .content {
+  border: 0px;
+}
+
+.container .main .rightPan .head {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.container .main .rightPan .head .headImg {
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
+
+.container .main .rightPan .head .headImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.container .main .rightPan .head .userInfo {
+  flex: 1;
+
+}
+
+.container .main .rightPan .head .userInfo .userName {
+  font-size: 14px;
+  color: #fb7299;
+}
+
+.container .main .rightPan .head .userInfo .desc {
+  font-size: 12px;
+  color: #999;
+  margin-top: 4px;
+}
+
+.container .main .rightPan .head .userInfo .attBtn {
+  margin-top: 10px;
+  width: 156px;
+  border: 0px;
+  background-color: #00a1d6;
+}
+
+.container .main .rightPan .ant-collapse,
+.container .main .rightPan .ant-collapse .ant-collapse-content,
+.container .main .rightPan .ant-collapse .ant-collapse-item {
+  border: 0px;
+}
+
+.container .main .rightPan .ant-collapse .ant-collapse-item .ant-collapse-header {
+  background-color: #f4f4f4 !important;
+}
